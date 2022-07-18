@@ -97,7 +97,7 @@ $htmlTitle = @"
 #$mainDir = '/app/testFolder'
 #$destinationFile = '/app/VolgaIndex.html'
 
-$mainDir = 'C:\Users\Xavier\Documents\DELICIAS DEL VOLGA Borrador final. Versión definitiva'
+$mainDir = 'C:\Users\Xavier\Documents\DELICIAS DEL VOLGA Borrador final. Version definitiva'
 $destinationDir = 'C:\Users\Xavier\Desktop\VolgaIndex.html'
 
 # Generate HTML
