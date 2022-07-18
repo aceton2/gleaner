@@ -94,11 +94,11 @@ $htmlTitle = @"
 #######################################################################################################\
 #######################################################################################################
 
-$mainDir = '/app/testFolder'
-$destinationFile = '/app/VolgaIndex.html'
+#$mainDir = '/app/testFolder'
+#$destinationFile = '/app/VolgaIndex.html'
 
-#$mainDir = 'C:\Users\Xavier\Documents\DELICIAS DEL VOLGA Borrador final. Versión definitiva'
-#$destinationDir = 'C:\Users\Xavier\Desktop\VolgaIndex.html'
+$mainDir = 'C:\Users\Xavier\Documents\DELICIAS DEL VOLGA Borrador final. Versión definitiva'
+$destinationDir = 'C:\Users\Xavier\Desktop\VolgaIndex.html'
 
 # Generate HTML
 #######################################################################################################
