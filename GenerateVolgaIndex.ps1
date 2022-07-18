@@ -90,13 +90,15 @@ $htmlTitle = @"
 "@
 
 
-# Contants
+# Constants
 #######################################################################################################\
 #######################################################################################################
 
+$mainDir = '/app/testFolder'
+$destinationFile = '/app/VolgaIndex.html'
 
-$mainDir = 'C:\Users\Xavier\Documents\DELICIAS DEL VOLGA Borrador final. Versión definitiva'
-
+#$mainDir = 'C:\Users\Xavier\Documents\DELICIAS DEL VOLGA Borrador final. Versiï¿½n definitiva'
+#$destinationDir = 'C:\Users\Xavier\Desktop\VolgaIndex.html'
 
 # Generate HTML
 #######################################################################################################
@@ -148,7 +150,7 @@ ForEach($f in $folders){
 
 $htmlFile = $htmlHead + $htmlTitle + $htmlList  + $htmlScript
 
-Set-Content -Path 'C:\Users\Xavier\Desktop\VolgaIndex.html' -Value $htmlFile
+Set-Content -Path $destinationFile -Value $htmlFile
 
 write-host "List successfully generated"
 
