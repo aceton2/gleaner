@@ -95,7 +95,7 @@ $htmlTitle = @"
 #######################################################################################################
 
 
-$mainDir = 'C:\Users\Xavier\Documents\DELICIAS DEL VOLGA Borrador final. Versión definitiva'
+$mainDir = 'C:\Users\Xavier\Documents\DELICIAS DEL VOLGA Borrador final. VersiÃ³n definitiva'
 
 
 # Generate HTML
@@ -160,3 +160,4 @@ catch {
  
 write-host "Press any key to terminate script.."
 $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
+
