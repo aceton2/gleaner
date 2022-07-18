@@ -97,7 +97,7 @@ $htmlTitle = @"
 $mainDir = '/app/testFolder'
 $destinationFile = '/app/VolgaIndex.html'
 
-#$mainDir = 'C:\Users\Xavier\Documents\DELICIAS DEL VOLGA Borrador final. Versi�n definitiva'
+#$mainDir = 'C:\Users\Xavier\Documents\DELICIAS DEL VOLGA Borrador final. Versión definitiva'
 #$destinationDir = 'C:\Users\Xavier\Desktop\VolgaIndex.html'
 
 # Generate HTML
@@ -162,3 +162,4 @@ catch {
  
 write-host "Press any key to terminate script.."
 $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
+
