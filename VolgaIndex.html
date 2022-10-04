@@ -1,0 +1,69 @@
+<head>
+  <title> Volga Index </title>
+  <style>
+
+    body {
+        margin:auto; 
+        width: 80%; 
+        font-family: Sans-Serif;
+    }
+
+    button {
+      border: 0;
+      border-radius: 0.25rem;
+      background: #483C32;
+      color: #cabfb6;
+      font-family: -system-ui, sans-serif;
+      font-size: 0.8rem;
+      line-height: 1.2;
+      white-space: nowrap;
+      text-decoration: none;
+      padding: 0.25rem 0.5rem;
+      margin: 0rem 2rem 2rem 0;
+      cursor: pointer;
+    }
+
+    .noDocNames > .documentTitle {
+        display: none;
+    }
+
+    .noDocNames > .subFolderTitle {
+        margin: 0.3rem 0px; 
+        font-size: 0.8rem;
+        font-weight: normal;
+    }
+    
+    .noDocNames > .subFolderTitle.volumeClass {
+        font-weight: bold;
+    }
+  
+    .indexTitleDiv {
+        margin: 2rem 0rem;
+        font-size: 1.5rem;
+    }
+
+    .indexTitleDiv > div {
+        font-size: 0.8rem;
+    }
+  
+    .subFolderTitle {
+        margin: 0.5rem 0px; 
+        font-weight: bold
+    }
+
+    .documentTitle { 
+        margin-top: 0.33rem;
+        font-size: 0.7rem;
+    }
+      
+  </style>
+</head><body class="noDocNames">
+
+
+<div class="indexTitleDiv"> 
+   Volga Index 
+   <div> generated 07/18/2022 09:00:31 </div>
+</div>
+
+<button onclick="toggleDocVisibility()">toggle docs</button>  <div class="subFolderTitle volumeClass"> FOLDER1 </div>   <div class="documentTitle"> test title  </div>   <div class="documentTitle"> test title  </div><script> function toggleDocVisibility() { document.body.classList.contains('noDocNames') ? document.body.classList.remove('noDocNames') : document.body.classList.add('noDocNames') } </script>
+</body>
